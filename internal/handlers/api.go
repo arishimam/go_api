@@ -1,9 +1,9 @@
 package handlers
 
 import (
+	"github.com/arishimam/goapi/internal/middleware"
 	"github.com/go-chi/chi"
 	chimiddle "github.com/go-chi/chi/middleware"
-	//"github.com/arishimam/goapi/internal/middleware"
 )
 
 // starting this with uppercase means it can be imported elsewhere. Lowercase = private
